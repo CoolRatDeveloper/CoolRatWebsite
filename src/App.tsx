@@ -60,7 +60,7 @@ function App() {
           style={scrollPosition > 400 ? {
             boxShadow: '0px 0px 10px black', top: '0', backgroundColor: '#2D132C'
           } : { top: '-100px'}}>
-          <header style={{ marginRight: '300px', color:'#fad021'}}>Cool Rat NFT</header>
+          <header style={{ marginRight: '200px', color:'#fad021', fontSize:'50px'}}>Cool Rat NFT</header>
           <a href="#all" className='section-link'>Mint</a>
           <a href="#about-section" className='section-link'>About</a>
           <a href="#rarity-section" className='section-link'>Rarity</a>
