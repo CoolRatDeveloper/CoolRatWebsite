@@ -5,7 +5,7 @@ import { ChainId, DAppProvider,Config } from '@usedapp/core';
 import { MintArea } from './components/MintArea';
 import BrownConnect from './images/BrownConnect.png';
 import Brown from './images/Brown.png';
-import Banner from './images/BannerT.png';
+import Banner from './images/ExoticOneImage.png';
 import CoolOneImage from './images/CoolOneImage.png';
 import CoolTwoImage from './images/CoolTwoImage.png';
 import WildOneImage from './images/WildOneImage.png';
@@ -60,7 +60,7 @@ function App() {
           style={scrollPosition > 400 ? {
             boxShadow: '0px 0px 10px black', top: '0', backgroundColor: '#2D132C'
           } : { top: '-100px'}}>
-          <img id="logo-banner-img" src={Banner}></img>
+          <header style={{ marginRight: '300px', color:'#fad021'}}>Cool Rat NFT</header>
           <a href="#all" className='section-link'>Mint</a>
           <a href="#about-section" className='section-link'>About</a>
           <a href="#rarity-section" className='section-link'>Rarity</a>
