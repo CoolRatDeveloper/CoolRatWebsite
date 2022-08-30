@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab7ab265.css",
+    "main.js": "/static/js/main.264a0bb5.js",
+    "static/js/787.49ab0622.chunk.js": "/static/js/787.49ab0622.chunk.js",
+    "static/media/DemoNFT.mp4": "/static/media/DemoNFT.087c0b8f5fabfd5953b2.mp4",
+    "static/media/ExoticOneImage.png": "/static/media/ExoticOneImage.e923f9a1ae12fc74f52f.png",
+    "static/media/ClassyTwoImage.png": "/static/media/ClassyTwoImage.3a63f1b1740a2899462c.png",
+    "static/media/ClassyOneImage.png": "/static/media/ClassyOneImage.22ee905b53c6075306c0.png",
+    "static/media/WildOneImage.png": "/static/media/WildOneImage.1ea72a91c655e0295407.png",
+    "static/media/CoolTwoImage.png": "/static/media/CoolTwoImage.06fcfb9cee48f35d0cc4.png",
+    "static/media/WildTwoImage.png": "/static/media/WildTwoImage.53fd96f79bca50d2f875.png",
+    "static/media/ExoticTwoImage.png": "/static/media/ExoticTwoImage.0fd7723ee7a6ad4bab5c.png",
+    "static/media/CoolOneImage.png": "/static/media/CoolOneImage.550e49f9fce3fec6f464.png",
+    "static/media/Waffle Story.ttf": "/static/media/Waffle Story.6956136c8f4405f16285.ttf",
+    "static/media/BannerT.png": "/static/media/BannerT.277402a9dd3d2b29cb26.png",
+    "index.html": "/index.html",
+    "main.ab7ab265.css.map": "/static/css/main.ab7ab265.css.map",
+    "main.264a0bb5.js.map": "/static/js/main.264a0bb5.js.map",
+    "787.49ab0622.chunk.js.map": "/static/js/787.49ab0622.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab7ab265.css",
+    "static/js/main.264a0bb5.js"
+  ]
+}
