@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CoolRatWebsite/static/css/main.307f1576.css",
-    "main.js": "/CoolRatWebsite/static/js/main.71bb1a5a.js",
+    "main.js": "/CoolRatWebsite/static/js/main.d456a016.js",
     "static/js/787.45b829cf.chunk.js": "/CoolRatWebsite/static/js/787.45b829cf.chunk.js",
     "static/media/DemoNFT.mp4": "/CoolRatWebsite/static/media/DemoNFT.087c0b8f5fabfd5953b2.mp4",
     "static/media/ExoticOneImage.png": "/CoolRatWebsite/static/media/ExoticOneImage.e923f9a1ae12fc74f52f.png",
@@ -15,11 +15,11 @@
     "static/media/Waffle Story.ttf": "/CoolRatWebsite/static/media/Waffle Story.6956136c8f4405f16285.ttf",
     "index.html": "/CoolRatWebsite/index.html",
     "main.307f1576.css.map": "/CoolRatWebsite/static/css/main.307f1576.css.map",
-    "main.71bb1a5a.js.map": "/CoolRatWebsite/static/js/main.71bb1a5a.js.map",
+    "main.d456a016.js.map": "/CoolRatWebsite/static/js/main.d456a016.js.map",
     "787.45b829cf.chunk.js.map": "/CoolRatWebsite/static/js/787.45b829cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.307f1576.css",
-    "static/js/main.71bb1a5a.js"
+    "static/js/main.d456a016.js"
   ]
 }
