@@ -1,0 +1,658 @@
+/* rgb(255, 159, 28),rgb(255, 191, 105)*/
+/*rgba(156,75,5, .9),rgba(131, 50, 2, .9)*/
+
+@font-face {
+    font-family: "Wafffle Story";
+    src: url('fonts/Waffle\ Story.ttf')
+}
+
+#all {
+    font-family: "Wafffle Story";
+    color: white;
+}
+
+@keyframes showup-on-top {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+#nft-video {
+    margin: 100px 100px -150px 100px;
+}
+
+#logo-banner-img {
+    height: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: 350px;
+}
+
+#sticky-bar {
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #da3644;
+    transition: top .3s, background-color .3s;
+    position: sticky;
+    z-index: 100;
+}
+
+#sticky-ber-connect {
+    font-size: 25px;
+    padding: 10px 25px;
+    border-radius: 55px;
+    margin: auto 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a div:hover {
+    border-bottom: #fad021 3px solid;
+}
+
+a:hover > div {
+    border-bottom: #fad021 3px solid;
+}
+
+.section-link {
+    color: white;
+    font-size: 25px;
+    margin: 15px 15px;
+    padding: 19px;
+}
+
+.section-link:hover {
+    border-bottom: #fad021 5px solid;
+}
+
+.Icon-PNG {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.TwitterButton, .OpenseaButton {
+    display: block;
+    margin: 0px 15px;
+    transition: background-image 0.4s;
+    background-size: cover;
+}
+
+.TwitterButton {
+
+}
+
+.TwitterButton:hover {
+    cursor: pointer;
+    border-bottom: #fad021 5px solid;
+}
+
+.OpenseaButton {
+    margin-right: 300px;
+}
+
+.OpenseaButton:hover {
+    cursor: pointer;
+    border-bottom: #fad021 3px solid;
+}
+
+header {
+    font-size: 60px;
+}
+
+p {
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: 600;
+}
+
+.rarity-description {
+    width: 1000px;
+    padding: 0px 100px 25px 100px;
+    margin: 0px auto 50px auto;
+    border-bottom: white 3px solid;
+}
+
+#rarity-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.rarity-card {
+    border: 10px solid #2D132C;
+    background-color: white;
+    color: #2D132C;;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0px 0px 10px #000000;
+    margin: 0px 20px;
+}
+
+.rarity-title {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 5px solid #2D132C;
+    width: 100%;
+}
+
+.rarity-rate {
+    display: flex;
+    justify-content: center;
+}
+
+.drop-rate {
+    margin: 10px 0px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 50px;
+    align-self: center;
+    border-radius: 25px;
+}
+
+#cool-1 {
+    background-color: #dec5a7;
+}
+
+#cool-2 {
+    background-color:#9db5fe;
+}
+
+#wild-1 {
+    background-color: #39e27d;
+}
+
+#wild-2 {
+    background-color: #fc9043;
+}
+
+#classy-1 {
+    background-color: #fd9dcb;
+}
+
+#classy-2 {
+    background-color: #fa3c6a;
+}
+
+#exotic-1 {
+    background-color: #a070dc;
+}
+
+#exotic-2 {
+    background-color: #fad021;
+}
+
+.drop-chance {
+    margin: 10px 90px 10px 10px;
+    font-size: 35px;
+    width: 80px;
+    font-weight: bold;
+}
+
+.rarity-profile {
+    margin-top: 20px;
+    border: 5px solid #2D132C;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.member-link{
+    padding: 25px 15px;
+    color: white;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 250px;
+}
+
+.member-link div {
+    color: #fad021;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.member-link img {
+    height: 40px;
+}
+
+.member-card {
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items:flex-start;
+    margin: 80px 150px;
+    height: 400px;
+    padding: 0px 0px 25px 25px;
+    border-left: #fad021 3px solid;
+}
+
+.member-description {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.member-description p {
+    margin: 0px 0px;
+    padding: 50px 0px 80px 25px;
+    border-bottom: white 3px solid;
+}
+
+.member-description header {
+    color: #fad021;
+}
+
+.member-profile {
+    border: 10px solid white;
+    box-shadow:  5px 5px 5px rgba(24, 22, 33, .5);
+    border-radius: 25px;
+    height: 400px;
+    margin: 0px;
+}
+
+#footer-section {
+    background-color: #2D132C;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-Index: 1;
+    box-shadow: 0px 0px 1vw rgba(24, 22, 33, .5);
+    display: flex;
+    padding: 25px 400px;
+}
+
+.footer-gap {
+    background-color: #fad021;
+    margin: 10px 50px;
+    border-right: solid 3px white;
+}
+
+#footer-icon {
+    width: 200px;
+}
+
+.mainHeaderLabel {
+    font-size: 2.5vw;
+    text-align: center;
+    padding: .2vw .2vw .2vw 1vw;
+    position: absolute;
+}
+
+.Center {
+    justify-content: center;
+    align-self: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.TitleHeader {
+    padding: 80px 0px;
+    font-weight: 900;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.BoldText {
+}
+
+.SmallerText {
+    font-weight: 900;
+    text-align: left;
+    font-size: 1.2vw;
+    color: white;
+    padding: 1vw;
+}
+
+#mint-section header {
+    font-size: 60px;
+    color: #fad021;
+    padding: 5px 45px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    display: inline;
+}
+
+#mint-section {
+    background-color: #da3644;
+    padding:50px;
+}
+#mint-area {
+    width: 800px;
+}
+#mint-description {
+    border-bottom: #fad021 3px solid;
+    padding: 25px 50px;
+    margin: 0px 0px 10px 0px;
+    text-align: left;
+}
+
+.mint-square-btn {
+    width: 140px;
+    height: 140px;
+    font-size: 50px;
+    border-radius: 25px;
+}
+#mint-controller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+
+#mint-count {
+    text-shadow: 0px 0px 5px black;
+    font-size: 65px;
+    width: 200px;
+}
+
+.mint-minted {
+    margin: 10px 0px 10px 0px;
+}
+
+.mint-btn {
+    font-size: 80px;
+    padding: 10px 50px;
+    border-radius: 25px;
+    margin: 10px 10px 10px 25px;
+}
+#mint-description p {
+    margin: 5px;
+}
+
+#mint-description span {
+    color: #fad021;
+}
+
+#roadmap-section .up-down-container {
+    width: 300px;
+    text-align: center;
+    margin: 0px 50px 100px 50px;
+}
+
+#roadmap-section .left-rigth-container header {
+    color:#fad021;
+}
+
+#roadmap-section {
+    background-color: #C72C41;
+}
+
+.roadmap-bottom-line {
+    border-bottom: #fad021 3px solid;
+    margin: 40px 550px 0px 550px;
+}
+
+.roadmap-container {
+    margin: 25px 50px;
+    padding: 0px 50px;
+}
+
+.roadmap-bubble-container {
+    background-color: #2D132C;
+    padding: 15px 70px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.roadmap-bubble-day {
+    font-size: 65px;
+    margin: 0px;
+    font-family: "Wafffle Story";
+}
+
+.roadmap-bubble-month {
+    font-size: 45px;
+    margin: 0px;
+}
+
+.roadmap-bubble-time {
+    font-size: 25px;
+    color: #fad021;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#about-section {
+    background-color: #C72C41;
+    text-align: center;
+}
+
+#about-img {
+    width: 500px;
+    border: 20px solid #2D132C;
+    margin: 100px;
+    border-radius: 25px;
+}
+
+#about-section header {
+    font-size: 60px;
+    color: #fad021;
+    padding: 5px 45px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    display: inline;
+}
+
+#about-container {
+    border-right: white 3px solid;
+}
+
+#about-description {
+    font-size: 30px;
+    width: 1000px;
+    padding: 0px 100px 25px 100px;
+    margin: 40px auto;
+}
+
+.left-rigth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up-down-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#faq-section {
+    background-color: #da3644;
+}
+
+.faq-answer {
+    font-weight: 300;
+    padding: 10px;
+    font-size: 30px;
+    margin: 10px 0px 0px 20px;
+}
+
+#team-section {
+    background-color: #801336;
+    padding: 50px;
+}
+
+#rarity-section {
+    background-color: #EE4540;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+.Panel1 {
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    box-shadow: 0px -25px 50px rgba(24, 22, 33, .8) inset;
+}
+
+.GradientBorderWrap {
+    position: relative;
+    background: linear-gradient(rgb(0, 48, 73), rgb(13, 27, 42));
+    padding: .3vw;
+    margin: 1vw;
+    border-radius: 2vw;
+}
+
+.Section2 {
+    background-color: rgb(214, 63, 63);
+    min-height: 100vh;
+}
+
+.FlexBoxStart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+    position: relative;
+    width: 15vw;
+    box-shadow: 0px 0px 10px rgba(24, 22, 33, .5);
+    border-radius: 1vw;
+    text-align: center;
+    margin: .5vw;
+}
+
+@keyframes rainbow {
+
+    from,
+    to {
+        box-shadow: 0 0 15px 0 rgb(187, 42, 42)
+    }
+
+    16% {
+        box-shadow: 0 0 15px 0 rgb(254, 182, 8)
+    }
+
+    32% {
+        box-shadow: 0 0 15px 0 rgb(23, 177, 37)
+    }
+
+    48% {
+        box-shadow: 0 0 15px 0 rgb(10, 160, 206)
+    }
+
+    64% {
+        box-shadow: 0 0 15px 0 rgb(46, 54, 152)
+    }
+
+    80% {
+        box-shadow: 0 0 15px 0 rgb(130, 32, 180)
+    }
+}
+
+@keyframes rainbowBig {
+
+    from,
+    to {
+        background-color: rgb(255, 255, 255)
+    }
+
+    50% {
+        background-color: rgb(186, 1, 255)
+    }
+}
+
+@keyframes rainbowBG {
+
+    from,
+    to {
+        background-color: rgb(255, 255, 255)
+    }
+
+    50% {
+        background-color: rgb(186, 1, 255)
+    }
+
+}
+
+.FadeContent {
+    opacity: 0;
+    position: absolute;
+    background-color: rgba(38, 37, 37, .9);
+    color: rgb(251, 86, 7);
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.2s;
+    border-radius: 1vw;
+    animation: rainbow 1s infinite;
+}
+
+.FadeTrigger {
+    position: absolute;
+    background-image: linear-gradient(rgba(38, 37, 37, 1)40%, rgb(17, 17, 17));
+    color: rgb(251, 86, 7);
+    width: 100%;
+    height: 100%;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 1vw rgba(24, 22, 33, .5);
+}
+
+.flip-box:hover .FadeContent {
+    opacity: 1;
+}
+
+.NormalButton {
+    font-family: "Wafffle Story";
+    font-weight: 900;
+    transition: background-color 0.4s;
+    text-shadow: .1vw .1vw .1vw #000000;
+    background-color: #2D132C;
+    color: white;
+    border-style: none;
+    box-shadow: 0px 0px 5px black;
+}
+
+.NormalButton:hover {
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    background-color: #fad021;
+}
+
+.DisabledButton {
+    font-weight: 900;
+    transition: background-color 0.4s;
+    font-size: 1vw;
+    padding: .5vw 1vw;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: #2D132C;
+    color: white;
+    border-style: none;
+    box-shadow: 0px 0px 10px black;
+    cursor: not-allowed;
+}
